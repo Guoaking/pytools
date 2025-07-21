@@ -1,0 +1,23 @@
+[project]
+name = "python-demo"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.9"
+dependencies = [
+    "black>=25.1.0",
+    "playwright>=1.53.0",
+    "requests>=2.32.4",
+    "selenium>=4.34.2",
+]
+
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "I"]  # 启用的规则
+ignore = ["E501"]             # 忽略的规则
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+
