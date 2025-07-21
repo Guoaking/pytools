@@ -386,7 +386,7 @@ wheels = [
 ]
 
 [[package]]
-name = "python-demo"
+name = "pytools"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
